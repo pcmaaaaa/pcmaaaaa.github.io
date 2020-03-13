@@ -8,7 +8,7 @@ tags: [About, Pingchuan Ma]
 
 My name is Pingchuan Ma. I'm a PhD student in Dr. [Yao Chen](http://neurosci.wustl.edu/People/Faculty/Yao-Chen)'s [lab](https://sites.wustl.edu/yaochenlab/) at [Department of Neuroscience](http://neurosci.wustl.edu/), [Washington University in St. Louis (WUSTL)](https://wustl.edu/). I'm also a McDonnell scholar of the [McDonnell International Scholars Academy](https://global.wustl.edu/mcdonnell-academy/) at WUSTL.
 
-![Pingchuan]({{ "/assets/img/Pingchuan.jpeg" | relative_url}})
+![Pingchuan]({{ "/assets/img/Pingchuan.jpg" | relative_url}})
 
 I grew up in Dongying, Shandong Province of China. I attended college at Peking University, Beijing, where I got my Bachelor of Medicine degree in 2016. After college I spent one year at Harvard Medical School, Boston, and worked in Southern University of Science and Technology, Shenzhen, for one year.
 
