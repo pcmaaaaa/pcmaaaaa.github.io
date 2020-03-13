@@ -2,7 +2,7 @@
 layout: page
 title: About me
 permalink: /aboutme/
-feature-img: "assets/img/pexels/circuit.jpeg"
+feature-img: "assets/img/actin.png"
 tags: [About, Pingchuan Ma]
 ---
 
