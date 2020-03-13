@@ -8,7 +8,7 @@ tags: [About, Pingchuan Ma]
 
 My name is Pingchuan Ma. I'm a PhD student in Dr. [Yao Chen](http://neurosci.wustl.edu/People/Faculty/Yao-Chen)'s [lab](https://sites.wustl.edu/yaochenlab/) at [Department of Neuroscience](http://neurosci.wustl.edu/), [Washington University in St. Louis (WUSTL)](https://wustl.edu/). I'm also a McDonnell scholar of the [McDonnell International Scholars Academy](https://global.wustl.edu/mcdonnell-academy/) at WUSTL.
 
-<img src="/assets/img/Pingchuan.jpg" height="200" width="200"  />
+<img src="/assets/img/Pingchuan.jpg" height="200" />
 
 ![Pingchuan]({{ "/assets/img/Pingchuan.jpg" | relative_url}})
 
