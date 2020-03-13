@@ -1,8 +1,8 @@
 --- 
 layout: page
-title : Portfolio 
-permalink: /portfolio/
-subtitle: "Projects I am working on" 
+title : Blog 
+permalink: /blog/
+subtitle: "A place where I think and record" 
 feature-img: "assets/img/DRG fura2.png"
 tags: [Archive]
 ---
