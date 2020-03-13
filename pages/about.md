@@ -1,12 +1,13 @@
 ---
 layout: page
 title: About me
+subtitle: About the cover: F-actin (green) and G-actin staining in Dorsal root ganglion neurons.
 permalink: /aboutme/
 feature-img: "assets/img/actin.png"
 tags: [About, Pingchuan Ma]
 ---
 
-My name is Pingchuan Ma.I'm a PhD student in Dr. Yao Chen's lab at Department of Neuroscience, Washington University in St. Louis (WUSTL). I'm also a McDonnell scholar of the McDonnell International Scholars Academy at WUSTL.
+My name is Pingchuan Ma. I'm a PhD student in Dr. Yao Chen's lab at Department of Neuroscience, Washington University in St. Louis (WUSTL). I'm also a McDonnell scholar of the McDonnell International Scholars Academy at WUSTL.
 
 I grew up in Dongying, Shandong Province of China. I attended college at Peking University, Beijing, where I got my Bachelor of Medicine degree in 2016. After college I spent one year at Harvard Medical School, Boston, and worked in Southern University of Science and Technology, Shenzhen, for one year.
 
