@@ -3,7 +3,7 @@ baseurl: ""
 url: "https://pcmaaaaa.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: Pingchuan Ma                                    # site's title
+title: Pingchuan Ma<br>马平川                                # site's title
 description: "A website with blog posts and pages"      # used by search engines
 avatar: assets/img/yingmukouzhao.jpeg                      # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
