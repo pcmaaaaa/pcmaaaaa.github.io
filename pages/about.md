@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About me
-subtitle: About the cover: F-actin (green) and G-actin staining in Dorsal root ganglion neurons.
 permalink: /aboutme/
 feature-img: "assets/img/actin.png"
 tags: [About, Pingchuan Ma]
