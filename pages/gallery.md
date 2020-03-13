@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Gallery
-subtitle: From work, From life
+subtitle: From work & life, ask me about them.
 permalink: /gallery/
 feature-img: "assets/img/actin.png"
 gallery_path: "assets/img/gallery"
