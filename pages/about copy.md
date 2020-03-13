@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About me
-permalink: /aboutme/
+title: About me copy
+permalink: /aboutmecopy/
 feature-img: "assets/img/actin.png"
 tags: [About, Pingchuan Ma]
 ---
