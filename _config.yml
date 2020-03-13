@@ -6,7 +6,7 @@ url: "https://pcmaaaaa.github.io"
 title: Pingchuan Ma 马平川                                # site's title
 description: "A website of Pingchuan Ma"      # used by search engines
 avatar: assets/img/yingmukouzhao.jpeg                      # Empty for no avatar in navbar
-favicon: assets/favicon.ico                             # Icon displayed in the tab
+favicon: assets/img/yingmukouzhao.jpeg                        # Icon displayed in the tab
 
 # Header and footer text
 header_text: Welcome to Pingchuan's blog<br>欢迎来到平川的博客  # Change Blog header text
