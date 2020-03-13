@@ -2,7 +2,7 @@
 layout: page
 title: About me
 permalink: /aboutme/
-feature-img: "assets/img/actin.png"
+feature-img: "assets/img/enteric neuron.tif"
 tags: [About, Pingchuan Ma]
 ---
 
