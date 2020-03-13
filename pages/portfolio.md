@@ -1,6 +1,6 @@
 --- 
 layout: page
-title : Blog 
+title : Blogs 
 permalink: /blog/
 subtitle: "A place where I think and record" 
 feature-img: "assets/img/DRG fura2.png"
