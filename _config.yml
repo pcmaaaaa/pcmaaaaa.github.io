@@ -10,7 +10,7 @@ favicon: assets/img/yingmukouzhao.jpeg                        # Icon displayed i
 
 # Header and footer text
 header_text: Welcome to Pingchuan's blog<br>欢迎来到平川的博客  # Change Blog header text
-header_feature_image: assets/img/spine.png
+header_feature_image: assets/img/St_louis.png
 footer_text: >
   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 

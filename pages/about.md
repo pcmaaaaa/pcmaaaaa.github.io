@@ -18,5 +18,5 @@ During college and one year in Shenzhen, I worked on peripheral mechanisms of ch
 
 Currently I'm in Dr. Yao Chen's lab, my research interest is the context dependent neuromodulation actions in the brain and how they impact neuronal functions and behaviors.
 
-Find more information about me from [Google Scholar](https://scholar.google.com/citations?user=v9ouchsAAAAJ&hl=zh-CN), [Researchgate](https://www.researchgate.net/profile/Ma_Pingchuan2), and the [McDonnell Academy](https://global.wustl.edu/people/pingchuan-ma/).
+Find more information about me from [Google Scholar](https://scholar.google.com/citations?user=v9ouchsAAAAJ&hl=zh-CN), [Researchgate](https://www.researchgate.net/profile/Ma_Pingchuan2), and the [McDonnell Academy](https://mcdonnell.wustl.edu/people/pingchuan-ma/).
  
