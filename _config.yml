@@ -28,8 +28,8 @@ author:
   bio              : "Biomedical researcher focusing on neuroscience and neurotechnology"
   location         : "San Diego"
   employer         : "Salk Institute for Biological Studies"
-  uri              : # URL
-  email            : "none@example.org" 
+  uri              : "https://www.salk.edu/" # URL
+  email            : "mapingchuan93@gmail.com" 
 
   # Academic websites
   academia         : # URL
