@@ -17,7 +17,15 @@ Prior to my Ph.D., I worked with [Dr. Xue-Jun Song](https://www.sustech.edu.cn/e
 
 I earned a Bachelor of Medicine degree from Peking University, after growing up in Guangrao, a small town in the ShanDong province of China.
 
+News
+------
+- 2025.06: I was awarded the Salk Pioneer Award for my study on building a optical platform for multiplexed imaging of neuronal signals!
+- 2025.05: I attended the [PhD hooding ceremony](https://sites.wustl.edu/yaochenlab/congratulations-pingchuan/)!
+- 2025.01: I started working at Salk! Very exciting!
+- 2024.09: I defended my thesis titled '[Studying the dynamics of neuromodulators in the brain by fluorescence lifetime imaging](https://www.proquest.com/openview/9797c3425e3ddc69575d630d10992516/1?pq-origsite=gscholar&cbl=18750&diss=y)'!
+
 Selected Publications
+------
 - Ma, P., Chen, P., Tilden, E. I., Aggarwal, S., Oldenborg, A., & Chen, Y. (2024). [Fast and slow: Recording neuromodulator dynamics across both transient and chronic time scales](https://www.science.org/doi/full/10.1126/sciadv.adi0643). Science Advances, 10(8), eadi0643.
 - Ma, P., Sternson, S., & Chen, Y. (2024). [The promise and peril of comparing fluorescence lifetime in biology revealed by simulations](https://elifesciences.org/reviewed-preprints/101559v1). eLife, 13.
 - Ma, P., Mo, R., Liao, H., Qiu, C., Wu, G., Yang, C., ... & Song, X. J. (2022). [Gut microbiota depletion by antibiotics ameliorates somatic neuropathic pain induced by nerve injury, chemotherapy, and diabetes in mice](https://link.springer.com/article/10.1186/s12974-022-02523-w). Journal of neuroinflammation, 19(1), 169.
