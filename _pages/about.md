@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I'm a neuroscientist focusing on studying the neural dynamics in the brain in health and disease using advanced optical imaging methods. 
+I'm a neuroscientist studying the neural dynamics in the brain in health and disease using advanced optical imaging methods.
 
-I'm currently a postdoc fellow at Salk Institute in San Diego, co-advised by [Dr. Adam Bowman](https://www.salk.edu/scientist/adam-bowman/) and [Dr. Ed Callaway](https://www.salk.edu/scientist/edward-callaway/). I use fast, quantitative, and multiplexed fluorescence lifetime imaging of voltage and other brain molecules, powered by [electro-optic fluorescence lifetime imaging microscopy](https://www.science.org/doi/10.1126/science.adf9725), to study the signal interactions and higher computation rules of neural circuits.
+I'm currently a postdoc fellow at Salk Institute in San Diego, co-advised by [Dr. Adam Bowman](https://www.salk.edu/scientist/adam-bowman/) and [Dr. Ed Callaway](https://www.salk.edu/scientist/edward-callaway/). I use fast, quantitative, and multiplexed fluorescence lifetime imaging of voltage and other brain molecules, powered by [electro-optic fluorescence lifetime imaging microscopy](https://www.science.org/doi/10.1126/science.adf9725) technique, to study the signal interactions and higher computation rules of neural circuits.
 
 I did my Ph.D. in Neuroscience at Washington University in St. Louis, advised by [Dr. Yao Chen](https://neuroscience.wustl.edu/people/yao-chen-phd/). During my Ph.D., I found the fluorescence lifetime changes of single fluorophore-based neuromodulator sensors and used fluorescence lifetime imaging for quantitative imaging of neuromodulators in neuronal functions and mouse behaviors.
 
