@@ -7,8 +7,9 @@ redirect_from:
   - /about.html
 ---
 
+------
 Pingchuan Ma, Ph.D.
-
+------
 Postdoc Research Fellow@Salk Institute for Biological Studies
 ------
 
