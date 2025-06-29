@@ -7,25 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-------
-Pingchuan Ma, Ph.D.
-------
-Postdoc Research Fellow@Salk Institute for Biological Studies
-------
-
-Education
-
-2018.08-2024.12, Ph.D., Washington University in St. Louis
-
-2016.09-2017.08, Visiting Student, Harvard Medical School
-
-2011.09-2016.07, B.M., Peking University
-
-Working Experience
-
-2025.01-Present, Postdoc Fellow, Salk Institute
-
-2017.09-2018.07, Research Associate, Southern University of Science and Technology
+A neuroscientist focusing on the neural dynamics in the brain by advanced optical imaging methods
 
 Selected Publications
 - Ma, P., Chen, P., Tilden, E. I., Aggarwal, S., Oldenborg, A., & Chen, Y. (2024). [Fast and slow: Recording neuromodulator dynamics across both transient and chronic time scales](https://www.science.org/doi/full/10.1126/sciadv.adi0643). Science Advances, 10(8), eadi0643.
