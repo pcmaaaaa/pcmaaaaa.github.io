@@ -7,7 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-A neuroscientist focusing on the neural dynamics in the brain by advanced optical imaging methods
+I'm a neuroscientist focusing on studying the neural dynamics in the brain in health and disease using advanced optical imaging methods. 
+
+I'm currently a postdoc fellow at Salk Institute in San Diego, co-advised by [Dr. Adam Bowman](https://www.salk.edu/scientist/adam-bowman/) and [Dr. Ed Callaway](https://www.salk.edu/scientist/edward-callaway/). I use fast, quantitative, and multiplexed fluorescence lifetime imaging of voltage and other brain molecules, powered by [electro-optic fluorescence lifetime imaging microscopy](https://www.science.org/doi/10.1126/science.adf9725), to study the signal interactions and higher computation rules of neural circuits.
+
+I did my Ph.D. in Neuroscience at Washington University in St. Louis, advised by [Dr. Yao Chen](https://neuroscience.wustl.edu/people/yao-chen-phd/). During my Ph.D., I found the fluorescence lifetime changes of single fluorophore-based neuromodulator sensors and used fluorescence lifetime imaging for quantitative imaging of neuromodulators in neuronal functions and mouse behaviors.
+
+Prior to my Ph.D., I worked with [Dr. Xue-Jun Song](https://www.sustech.edu.cn/en/faculties/songxuejun.html) at Peking Unviersity and Southern University of Science and Technology in China, and with [Dr. Issac Chiu](https://chiulab.med.harvard.edu/people/isaac-chiu) at Harvard Medical School. I studied the molecular pathogenesis of neuropathic pain and the gut microbiota-sensory neuron-immune interactions in chronic pain and gut infections.
+
+I earned a Bachelor of Medicine degree from Peking University, after growing up in Guangrao, a small town in the ShanDong province of China.
 
 Selected Publications
 - Ma, P., Chen, P., Tilden, E. I., Aggarwal, S., Oldenborg, A., & Chen, Y. (2024). [Fast and slow: Recording neuromodulator dynamics across both transient and chronic time scales](https://www.science.org/doi/full/10.1126/sciadv.adi0643). Science Advances, 10(8), eadi0643.
