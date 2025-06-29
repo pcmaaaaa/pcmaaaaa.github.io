@@ -22,7 +22,10 @@ News
 - 2025.06: I was awarded the Salk Pioneer Award for my study on building a optical platform for multiplexed imaging of neuronal signals!
 - 2025.05: I attended the [PhD hooding ceremony](https://sites.wustl.edu/yaochenlab/congratulations-pingchuan/)!
 - 2025.01: I started working at Salk! Very exciting!
+- 2024.11: Paper published in eLife: [The promise and peril of comparing fluorescence lifetime in biology revealed by simulations](https://elifesciences.org/reviewed-preprints/101559v1).
 - 2024.09: I defended my thesis titled '[Studying the dynamics of neuromodulators in the brain by fluorescence lifetime imaging](https://www.proquest.com/openview/9797c3425e3ddc69575d630d10992516/1?pq-origsite=gscholar&cbl=18750&diss=y)'!
+- 2024.02: Paper published in Science Advances: [Fast and slow: Recording neuromodulator dynamics across both transient and chronic time scales](https://www.science.org/doi/full/10.1126/sciadv.adi0643).
+
 
 Selected Publications
 ------
