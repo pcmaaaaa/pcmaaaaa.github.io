@@ -8,15 +8,22 @@ redirect_from:
 ---
 
 Pingchuan Ma, Ph.D.
+
 Postdoc Research Fellow@Salk Institute for Biological Studies
 ------
+
 Education
+
 2018.08-2024.12, Ph.D., Washington University in St. Louis
+
 2016.09-2017.08, Visiting Student, Harvard Medical School
+
 2011.09-2016.07, B.M., Peking University
 
 Working Experience
+
 2025.01-Present, Postdoc Fellow, Salk Institute
+
 2017.09-2018.07, Research Associate, Southern University of Science and Technology
 
 Selected Publications
