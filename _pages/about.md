@@ -15,7 +15,7 @@ I did my Ph.D. in Neuroscience at Washington University in St. Louis, advised by
 
 Prior to my Ph.D., I worked with [Dr. Xue-Jun Song](https://www.sustech.edu.cn/en/faculties/songxuejun.html) at Peking Unviersity and Southern University of Science and Technology in China, and with [Dr. Issac Chiu](https://chiulab.med.harvard.edu/people/isaac-chiu) at Harvard Medical School. I studied the molecular pathogenesis of neuropathic pain and the gut microbiota-sensory neuron-immune interactions in chronic pain and gut infections.
 
-I earned a Bachelor of Medicine degree from Peking University, after growing up in Guangrao, a small town in the ShanDong province of China.
+I earned a Bachelor of Medicine degree from Peking University, Beijing, after growing up in [Guangrao](https://baike.baidu.com/item/%E5%B9%BF%E9%A5%B6%E5%8E%BF/2405618), a small town in the ShanDong province of China.
 
 News
 ------
