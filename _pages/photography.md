@@ -27,46 +27,47 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign photo_root = "/images/photography/" %}
-{% assign all_static_files = site.static_files | sort: "path" %}
+{%- assign photo_root = "/images/photography/" -%}
+{%- assign all_static_files = site.static_files | sort: "path" -%}
 
-{% assign written_group = nil %}
-{% assign photo_count = 0 %}
-{% for file in all_static_files %}
-  {% if file.path contains photo_root %}
-    {% assign is_image = false %}
-    {% if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.png' or file.extname == '.gif' or file.extname == '.webp' or file.extname == '.JPG' or file.extname == '.JPEG' or file.extname == '.PNG' or file.extname == '.GIF' or file.extname == '.WEBP' %}
-      {% assign is_image = true %}
-    {% endif %}
-
-    {% if is_image %}
-      {% assign photo_count = photo_count | plus: 1 %}
-      {% assign rel_path = file.path | remove_first: photo_root %}
-      {% assign path_parts = rel_path | split: "/" %}
-      {% if path_parts.size > 1 %}
-        {% assign this_group = path_parts[0] %}
-      {% else %}
-        {% assign this_group = "Photos" %}
-      {% endif %}
-
-      {% if this_group != written_group %}
-        {% unless written_group == nil %}</div>{% endunless %}
-        <h2 class="photo-gallery__group-title">{{ this_group }}</h2>
-        <div class="photo-gallery">
-        {% assign written_group = this_group %}
-      {% endif %}
-
-      {% assign caption = file.basename | replace: '_', ' ' | replace: '-', ' ' %}
-      <figure class="photo-gallery__item">
-        <a href="{{ base_path }}{{ file.path }}" target="_blank" rel="noopener">
-          <img src="{{ base_path }}{{ file.path }}" alt="{{ caption }}">
-        </a>
-        <figcaption>{{ caption }}</figcaption>
-      </figure>
-    {% endif %}
-  {% endif %}
-{% endfor %}
-{% if photo_count > 0 %}</div>{% endif %}
+{%- assign written_group = nil -%}
+{%- assign photo_count = 0 -%}
+{%- for file in all_static_files -%}
+{%- if file.path contains photo_root -%}
+{%- assign is_image = false -%}
+{%- if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.png' or file.extname == '.gif' or file.extname == '.webp' or file.extname == '.JPG' or file.extname == '.JPEG' or file.extname == '.PNG' or file.extname == '.GIF' or file.extname == '.WEBP' -%}
+{%- assign is_image = true -%}
+{%- endif -%}
+{%- if is_image -%}
+{%- assign photo_count = photo_count | plus: 1 -%}
+{%- assign rel_path = file.path | remove_first: photo_root -%}
+{%- assign path_parts = rel_path | split: "/" -%}
+{%- if path_parts.size > 1 -%}
+{%- assign this_group = path_parts[0] -%}
+{%- else -%}
+{%- assign this_group = "Photos" -%}
+{%- endif -%}
+{%- if this_group != written_group -%}
+{%- unless written_group == nil -%}
+</div>
+{%- endunless %}
+<h2 class="photo-gallery__group-title">{{ this_group }}</h2>
+<div class="photo-gallery">
+{%- assign written_group = this_group -%}
+{%- endif -%}
+{%- assign caption = file.basename | replace: '_', ' ' | replace: '-', ' ' -%}
+<figure class="photo-gallery__item">
+<a href="{{ base_path }}{{ file.path }}" target="_blank" rel="noopener">
+<img src="{{ base_path }}{{ file.path }}" alt="{{ caption }}">
+</a>
+<figcaption>{{ caption }}</figcaption>
+</figure>
+{%- endif -%}
+{%- endif -%}
+{%- endfor -%}
+{%- if photo_count > 0 -%}
+</div>
+{%- endif %}
 
 {% if photo_count == 0 %}
 <p>Photos coming soon!</p>
