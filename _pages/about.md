@@ -19,7 +19,8 @@ I earned a Bachelor of Medicine degree from Peking University, Beijing, after gr
 
 News
 ------
-- 2025.06: I was awarded the Salk Pioneer Award for my study on building a optical platform for multiplexed imaging of neuronal signals!
+- 2026.05: I was awarded the [Kavli Institute for Brain and Mind (KIBM) Postdoctoral Scholar Award](https://biology.ucsd.edu/about/news/2026/article-062326a.html)!
+- 2025.06: I was awarded the [Salk Pioneer Award](https://salkland.salk.edu/Interact/Pages/Content/Document.aspx?id=8218) for my study on building a optical platform for multiplexed imaging of neuronal signals!
 - 2025.05: I attended the [PhD hooding ceremony](https://sites.wustl.edu/yaochenlab/congratulations-pingchuan/)!
 - 2025.01: I started working at Salk! Very exciting!
 - 2024.11: Paper published in eLife: [The promise and peril of comparing fluorescence lifetime in biology revealed by simulations](https://elifesciences.org/reviewed-preprints/101559v1).
