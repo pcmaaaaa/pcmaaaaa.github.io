@@ -7,15 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-I'm a neuroscientist Working at the interface of neurotechnology and neurobiology. I develop and apply optical imaging methods to study the dynamics of neuronal signals in the brain to reveal their roles in neuronal functions and behaviors.
+I'm a neuroscientist working at the interface of neurotechnology and neurobiology. I apply advanced optical imaging methods to study the dynamics of neuronal signals in the brain for their roles in neuronal functions and behaviors.
 
-I'm currently a postdoc fellow at Salk Institute in San Diego, co-advised by [Dr. Adam Bowman](https://www.salk.edu/scientist/adam-bowman/) and [Dr. Ed Callaway](https://www.salk.edu/scientist/edward-callaway/). I use fast, quantitative, and multiplexed fluorescence lifetime imaging of voltage and other brain molecules, powered by [electro-optic fluorescence lifetime imaging microscopy](https://www.science.org/doi/10.1126/science.adf9725) technique, to study the neural dynamics in neural circuits.
+I'm now a postdoctoral research fellow at Salk Institute in San Diego. For my current research, I use fast and quantitative fluorescence lifetime imaging of voltage multiplexed with other brain signals to study the neural dynamics in neural circuits.
 
-I did my Ph.D. in Neuroscience at Washington University in St. Louis, advised by [Dr. Yao Chen](https://neuroscience.wustl.edu/people/yao-chen-phd/). During my Ph.D., I found the fluorescence lifetime changes of single fluorophore-based neuromodulator sensors and used fluorescence lifetime imaging for quantitative imaging of neuromodulators.
+I have a Ph.D. degree in Neuroscience from Washington University in St. Louis and a Bachelor of Medicine degree from Peking University.
 
-Prior to my Ph.D., I worked with [Dr. Xue-Jun Song](https://www.sustech.edu.cn/en/faculties/songxuejun.html) at Peking Unviersity and Southern University of Science and Technology in China, and with [Dr. Issac Chiu](https://chiulab.med.harvard.edu/people/isaac-chiu) at Harvard Medical School. I studied the molecular pathogenesis of neuropathic pain and the gut microbiota-sensory neuron-immune interactions in chronic pain and gut infections.
-
-I earned a Bachelor of Medicine degree from Peking University, Beijing, after growing up in [Guangrao](https://baike.baidu.com/item/%E5%B9%BF%E9%A5%B6%E5%8E%BF/2405618), a small town in the ShanDong province of China.
 
 News
 ------
