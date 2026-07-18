@@ -3,7 +3,11 @@ layout: single
 permalink: /photography/
 title: "Photography"
 author_profile: true
-gallery: [/images/photography/Salk.jpg]
+gallery: 
+- image_path: photography/Salk.jpg
+  url: /images/photography/Salk.jpg
+  alt: "Salk Institute ocean view"
+  title: "Salk Institute"
 ---
 
 {% comment %}
