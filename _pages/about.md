@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I'm a neuroscientist studying the neural dynamics in the brain in health and disease using advanced optical imaging methods.
+I'm a neuroscientist Working at the interface of neurotechnology and neurobiology. I develop and apply optical imaging methods to study the dynamics of neuronal signals in the brain to reveal their roles in neuronal functions and behaviors.
 
-I'm currently a postdoc fellow at Salk Institute in San Diego, co-advised by [Dr. Adam Bowman](https://www.salk.edu/scientist/adam-bowman/) and [Dr. Ed Callaway](https://www.salk.edu/scientist/edward-callaway/). I use fast, quantitative, and multiplexed fluorescence lifetime imaging of voltage and other brain molecules, powered by [electro-optic fluorescence lifetime imaging microscopy](https://www.science.org/doi/10.1126/science.adf9725) technique, to study the signal interactions and higher computation rules of neural circuits.
+I'm currently a postdoc fellow at Salk Institute in San Diego, co-advised by [Dr. Adam Bowman](https://www.salk.edu/scientist/adam-bowman/) and [Dr. Ed Callaway](https://www.salk.edu/scientist/edward-callaway/). I use fast, quantitative, and multiplexed fluorescence lifetime imaging of voltage and other brain molecules, powered by [electro-optic fluorescence lifetime imaging microscopy](https://www.science.org/doi/10.1126/science.adf9725) technique, to study the neural dynamics in neural circuits.
 
-I did my Ph.D. in Neuroscience at Washington University in St. Louis, advised by [Dr. Yao Chen](https://neuroscience.wustl.edu/people/yao-chen-phd/). During my Ph.D., I found the fluorescence lifetime changes of single fluorophore-based neuromodulator sensors and used fluorescence lifetime imaging for quantitative imaging of neuromodulators in neuronal functions and mouse behaviors.
+I did my Ph.D. in Neuroscience at Washington University in St. Louis, advised by [Dr. Yao Chen](https://neuroscience.wustl.edu/people/yao-chen-phd/). During my Ph.D., I found the fluorescence lifetime changes of single fluorophore-based neuromodulator sensors and used fluorescence lifetime imaging for quantitative imaging of neuromodulators.
 
 Prior to my Ph.D., I worked with [Dr. Xue-Jun Song](https://www.sustech.edu.cn/en/faculties/songxuejun.html) at Peking Unviersity and Southern University of Science and Technology in China, and with [Dr. Issac Chiu](https://chiulab.med.harvard.edu/people/isaac-chiu) at Harvard Medical School. I studied the molecular pathogenesis of neuropathic pain and the gut microbiota-sensory neuron-immune interactions in chronic pain and gut infections.
 
