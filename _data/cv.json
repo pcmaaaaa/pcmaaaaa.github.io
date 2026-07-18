@@ -1,61 +1,121 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Pingchuan Ma, Ph.D.",
+    "email": "pma@salk.edu",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://pcmaaaaa.github.io",
+    "summary": "Postdoc Research Fellow at Salk Institute for Biological Studies, studying neural dynamics using advanced optical imaging methods.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "San Diego",
       "countryCode": "US",
-      "region": ""
+      "region": "CA"
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=v9ouchsAAAAJ&hl"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/0000-0001-9964-2852"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "pcmaaaaa",
+        "url": "https://github.com/pcmaaaaa"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "position": "Postdoc Fellow",
+      "company": "Salk Institute for Biological Studies (Adam Bowman Lab)",
+      "startDate": "2025-01",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Developing a new type of fluorescence lifetime imaging microscopy",
+        "Applying specialized optical imaging methods and molecular voltage indicators for studying neural dynamics in visual circuits",
+        "Combined training in optics instrumentation and neurobiology; co-advised by Adam Bowman (applied physicist) and Ed Callaway (neurobiologist, National Academy of Sciences member)"
+      ]
+    },
+    {
+      "position": "Graduate Student",
+      "company": "Washington University in St. Louis (Yao Chen Lab)",
+      "startDate": "2019-09",
+      "endDate": "2024-10",
+      "summary": "Optical imaging and computational analysis for neurobiology studies",
+      "highlights": [
+        "Used in vivo optical imaging system and ex vivo two-photon microscope to study neuromodulator dynamics in the brain",
+        "Studied brain slice physiology combining optical imaging, optogenetics, and electrophysiology",
+        "Utilized implants for in vivo bio-signal and sleep behavior assays including optical fiber and EEG/EMG implants",
+        "Built computational pipeline for imaging system simulation",
+        "Performed protein engineering of molecular biosensors"
+      ]
+    },
+    {
+      "position": "Research Associate",
+      "company": "Southern University of Science and Technology, China (X.-J. Song Lab)",
+      "startDate": "2017-09",
+      "endDate": "2018-07",
+      "summary": "Chronic pain and gut-brain axis",
+      "highlights": [
+        "Studied the interactions among neurons, immune system, and gut microbiota in the context of neurological disorders",
+        "Utilized various disease models including nerve injury, diabetes, cancer, and chemotherapy-induced chronic pain models for molecular pathogenesis studies",
+        "Developed therapeutic targets for chronic pain including cytoskeleton and amyloid-beta in the peripheral nervous system"
+      ]
+    },
+    {
+      "position": "Student Research Assistant",
+      "company": "Harvard Medical School (I. Chiu Lab)",
+      "startDate": "2016-09",
+      "endDate": "2017-08",
+      "summary": "Neuroimmunology",
+      "highlights": [
+        "Studied the role of sensory neurons in host-defense of gut bacterial infections",
+        "Explored the impact of gut microbiota on enteric neuron functions"
+      ]
+    },
+    {
+      "position": "Student Research Assistant",
+      "company": "Neuroscience Research Institute, Peking University",
+      "startDate": "2014-09",
+      "endDate": "2016-07",
+      "summary": "Molecular biology and pain medicine",
+      "highlights": [
+        "Studied the pathogenesis of neuropathic pain in peripheral sensory neurons"
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "Washington University in St. Louis, St. Louis, MO",
+      "area": "Ph.D. in Neuroscience, McDonnell Academy Scholarship",
+      "studyType": "Ph.D.",
+      "startDate": "2018-09",
+      "endDate": "2024-09",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "Harvard Medical School, Boston, MA",
+      "area": "Visiting Student",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
+      "startDate": "2016-08",
+      "endDate": "2017-08",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "institution": "Peking University, Beijing, China",
+      "area": "Bachelor of Medicine, Merit-Based Medical Student Scholarships",
+      "studyType": "Bachelor",
+      "startDate": "2011-09",
+      "endDate": "2016-07",
       "gpa": null,
       "courses": []
     }
@@ -63,90 +123,205 @@
   "skills": [],
   "languages": [],
   "interests": [],
-  "references": [],
+  "references": [
+    {
+      "name": "Adam Bowman, Ph.D.",
+      "reference": "Advisor; Salk Fellow, Salk Institute for Biological Studies; abowman@salk.edu"
+    },
+    {
+      "name": "Edward Callaway, Ph.D.",
+      "reference": "Advisor; Professor, Salk Institute for Biological Studies; callaway@salk.edu"
+    },
+    {
+      "name": "Yao Chen, Ph.D.",
+      "reference": "Thesis advisor; Assistant Professor, Department of Neuroscience, Washington University in St. Louis; yaochen@wustl.edu"
+    },
+    {
+      "name": "Daniel Kerschensteiner, M.D.",
+      "reference": "Thesis committee chair; Bernard Becker Professor of Ophthalmology and Visual Sciences, Vice Chair for Research in Ophthalmology and Visual Sciences, Co-Director of the Neuroscience Ph.D. Program, Washington University in St. Louis; kerschensteinerd@wustl.edu"
+    },
+    {
+      "name": "Isaac Chiu, Ph.D.",
+      "reference": "Research supervisor; Professor, Department of Immunology, Harvard Medical School; isaac_chiu@hms.harvard.edu"
+    },
+    {
+      "name": "Xue-Jun Song, M.D., Ph.D.",
+      "reference": "Research supervisor; Professor and Chair, Department of Medical Neuroscience, Southern University of Science and Technology; songxuejun@sustech.edu.cn"
+    }
+  ],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Fundamental limits on fluorescence lifetime estimation using minimally distributed temporal gates",
+      "publisher": "Manuscript in preparation",
+      "releaseDate": "2026",
+      "website": "",
+      "summary": "Ma, P., Hu, L., & Bowman, A. (2026)."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Phasor EO-FLIM: Lifetime imaging with picosecond noise and 500 Hz frame rate",
+      "publisher": "bioRxiv",
+      "releaseDate": "2026",
+      "website": "",
+      "summary": "Hu, L., Ma, P., Menon, V., Madhavan, A. S., Asahina, K., Müller, L. M., & Bowman, A. J. (2026)."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "The promise and peril of comparing fluorescence lifetime in biology revealed by simulations",
+      "publisher": "eLife, 13, RP101559",
+      "releaseDate": "2025",
+      "website": "https://elifesciences.org/reviewed-preprints/101559v1",
+      "summary": "Ma, P., Chen, P., Sternson, S., & Chen, Y. (2025)."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Fast and slow: recording neuromodulator dynamics across both transient and chronic time scales",
+      "publisher": "Science Advances, 10(8), eadi0643",
+      "releaseDate": "2024",
+      "website": "https://www.science.org/doi/full/10.1126/sciadv.adi0643",
+      "summary": "Ma, P., Chen, P., Tilden, E., Aggarwal, S., Oldenborg, A., & Chen, Y. (2024)."
+    },
+    {
+      "name": "Spinal beta-amyloid1-42 acts as an endogenous analgesic peptide in CCI-induced neuropathic pain",
+      "publisher": "European Journal of Pain, 26(1), 133-142",
+      "releaseDate": "2022",
+      "website": "",
+      "summary": "Cui, D., Li, Z. H., Li, C., Qiu, C., Ma, P., Wu, M., & Song, X. J. (2022)."
+    },
+    {
+      "name": "Gut microbiota depletion by antibiotics ameliorates somatic neuropathic pain induced by nerve injury, chemotherapy, and diabetes in mice",
+      "publisher": "Journal of Neuroinflammation, 19(1), 1-18",
+      "releaseDate": "2022",
+      "website": "https://link.springer.com/article/10.1186/s12974-022-02523-w",
+      "summary": "Ma, P., Mo, R., Liao, H., Qiu, C., Wu, G., & Song, X. J. (2022)."
+    },
+    {
+      "name": "Role of matrix metalloproteinases in myelin abnormalities and mechanical allodynia in rodents with diabetic neuropathy",
+      "publisher": "Aging and Disease, 12(7), 1808",
+      "releaseDate": "2021",
+      "website": "",
+      "summary": "Deng, X., Ma, P., Wu, M., Liao, H., & Song, X. J. (2021)."
+    },
+    {
+      "name": "Activation of EphB receptors contributes to primary sensory neuron excitability by facilitating Ca2+ influx directly or through Src kinase-mediated N-methyl-D-aspartate receptor phosphorylation",
+      "publisher": "Pain, 161(7), 1584-1596",
+      "releaseDate": "2020",
+      "website": "https://journals.lww.com/pain/abstract/2020/07000/activation_of_ephb_receptors_contributes_to.16.aspx",
+      "summary": "Ma, P., Chen, P., Zhou, Z. L., Mo, R. F., Wu, M., & Song, X. J. (2020)."
+    },
+    {
+      "name": "Gut-innervating nociceptor neurons regulate Peyer's patch microfold cells and SFB levels to mediate Salmonella host defense",
+      "publisher": "Cell",
+      "releaseDate": "2020-01",
+      "website": "",
+      "summary": "Lai, N. Y., Musser, M. A., Pinho-Ribeiro, F. A., Baral, P., Jacobson, A., Ma, P., ... & Chiu, I. M. (2020)."
+    },
+    {
+      "name": "Wnt signaling contributes to withdrawal symptoms from opioid receptor activation induced by morphine exposure or chronic inflammation",
+      "publisher": "Pain, 161(3), 532",
+      "releaseDate": "2020",
+      "website": "",
+      "summary": "Wu, M., Li, Z., Liang, L., Ma, P., ... & Song, X. J. (2020)."
+    },
+    {
+      "name": "Activation of ephrinB–EphB receptor signalling in rat spinal cord contributes to maintenance of diabetic neuropathic pain",
+      "publisher": "European Journal of Pain, 21(2), 278-288",
+      "releaseDate": "2017",
+      "website": "",
+      "summary": "Deng, X. T., Wu, M. Z., Xu, N., Ma, P. C., & Song, X. J. (2017). doi: 10.1002/ejp.922"
+    },
+    {
+      "name": "Neuro-immune interactions in inflammation and host defense: Implications for transplantation",
+      "publisher": "American Journal of Transplantation, 18(3), 556-563",
+      "releaseDate": "2018",
+      "website": "",
+      "summary": "Chavan, S. S., Ma, P., & Chiu, I. M. (2018)."
+    },
+    {
+      "name": "Inhibition of YAP/TAZ activity in spinal cord suppresses neuropathic pain",
+      "publisher": "The Journal of Neuroscience, 36(39), 10128-10140",
+      "releaseDate": "2016-09",
+      "website": "",
+      "summary": "Xu, N., Wu, M. Z., Deng, X. T., Ma, P. C., ..., & Song, X. J. (2016)."
+    },
+    {
+      "name": "Wnt/Ryk signaling contributes to neuropathic pain by regulating sensory neuron excitability and spinal synaptic plasticity in rats",
+      "publisher": "Pain, 156(12), 2572-2584",
+      "releaseDate": "2015",
+      "website": "",
+      "summary": "Liu, S., Liu, Y. P., Huang, Z. J., Zhang, Y. K., Song, A. A., Ma, P. C., & Song, X. J. (2015). doi: 10.1097/j.pain.0000000000000366"
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "name": "A theoretical framework for optical multiplexing of neuronal signals",
+      "event": "Society for Neuroscience Annual Meeting",
+      "date": "2025-11",
+      "location": "",
+      "description": "Poster presentation"
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
+      "name": "A theoretical framework for optical multiplexing of neuronal signals",
+      "event": "Salk Seaside Symposium",
+      "date": "2025-10",
+      "location": "",
+      "description": "Poster presentation"
     },
     {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
+      "name": "Shining A Light on Neuroscience: New Frontiers with Fluorescent Protein-Based Sensors",
+      "event": "2025 Winter Conference on Brain Research",
+      "date": "2025-01",
+      "location": "",
+      "description": "Panel presentation"
     },
     {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "Studying the dynamics of neuromodulators in the brain by fluorescence lifetime imaging",
+      "event": "Department of Medical Neuroscience, Southern University of Science and Technology",
+      "date": "2024-05",
+      "location": "",
+      "description": "Oral presentation"
+    },
+    {
+      "name": "Beyond conventional wisdom: unveiling quantitative insights in fluorescence lifetime imaging via realistic simulation of biological systems",
+      "event": "Optics and the Brain conference (Optica)",
+      "date": "2024-04",
+      "location": "",
+      "description": "Poster presentation"
+    },
+    {
+      "name": "Fast and slow: Recording neuromodulator dynamics across both transient and chronic time scales",
+      "event": "Department of Neuroscience Research Talks, Washington University in St. Louis",
+      "date": "2024-02",
+      "location": "",
+      "description": "Oral presentation"
+    },
+    {
+      "name": "Monitoring Neuromodulator Levels across Time and Animals by Fluorescence Lifetime Imaging",
+      "event": "Biochemistry and Biophysics Community Science Friday, Washington University in St. Louis",
+      "date": "2023-02",
+      "location": "",
+      "description": "Oral presentation"
+    },
+    {
+      "name": "Monitoring Neuromodulator Levels across Time and Animals with Optical Sensors",
+      "event": "Society for Neuroscience Annual Meeting",
+      "date": "2022-11",
+      "location": "",
+      "description": "Poster presentation"
+    },
+    {
+      "name": "Gut microbiota in chronic pain caused by peripheral nerve injury, cis-platin chemotherapy, and diabetes in mice",
+      "event": "Society for Neuroscience Annual Meeting",
+      "date": "2019-11",
+      "location": "",
+      "description": "Poster presentation"
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
+      "course": "Principles of Neurobiology",
+      "institution": "Washington University in St. Louis",
+      "date": "2019-09",
+      "role": "Assistant Instructor",
       "description": ""
     }
   ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "portfolio": []
 }
