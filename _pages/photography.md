@@ -18,6 +18,11 @@ gallery:
   url: photography/Arch.jpg
   alt: "The Arch from St. Louis"
   title: "The Arch"
+
+- image_path: photography/Saki.jpg
+  url: photography/Saki.jpg
+  alt: ""
+  title: "Saki the cat"
 ---
 
 {% comment %}
