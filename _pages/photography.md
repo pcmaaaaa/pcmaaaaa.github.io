@@ -3,7 +3,7 @@ layout: single
 permalink: /photography/
 title: "Photography"
 author_profile: true
-gallery: []
+gallery: [/images/photography/Salk.jpg]
 ---
 
 {% comment %}
