@@ -8,6 +8,11 @@ gallery:
   url: /images/photography/Salk.jpg
   alt: "Salk Institute ocean view"
   title: "Salk Institute"
+
+- image_path: photography/Seaside.jpg
+  url: /images/photography/Seaside.jpg
+  alt: "La Jolla Cove"
+  title: "La Jolla Cove"
 ---
 
 {% comment %}
