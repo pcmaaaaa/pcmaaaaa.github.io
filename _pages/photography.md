@@ -28,38 +28,47 @@ author_profile: true
 {% include base_path %}
 
 {% assign photo_root = "/images/photography/" %}
-{% assign photo_files = site.static_files | where_exp: "f", "f.path contains photo_root" %}
-{% assign photo_files = photo_files | where_exp: "f", "f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.png' or f.extname == '.gif' or f.extname == '.webp' or f.extname == '.JPG' or f.extname == '.JPEG' or f.extname == '.PNG' or f.extname == '.GIF' or f.extname == '.WEBP'" %}
-{% assign photo_files = photo_files | sort: "path" %}
+{% assign all_static_files = site.static_files | sort: "path" %}
 
 {% assign written_group = nil %}
-{% for file in photo_files %}
-  {% assign rel_path = file.path | remove_first: photo_root %}
-  {% assign path_parts = rel_path | split: "/" %}
-  {% if path_parts.size > 1 %}
-    {% assign this_group = path_parts[0] %}
-  {% else %}
-    {% assign this_group = "Photos" %}
-  {% endif %}
+{% assign photo_count = 0 %}
+{% for file in all_static_files %}
+  {% if file.path contains photo_root %}
+    {% assign is_image = false %}
+    {% if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.png' or file.extname == '.gif' or file.extname == '.webp' or file.extname == '.JPG' or file.extname == '.JPEG' or file.extname == '.PNG' or file.extname == '.GIF' or file.extname == '.WEBP' %}
+      {% assign is_image = true %}
+    {% endif %}
 
-  {% if this_group != written_group %}
-    {% unless forloop.first %}</div>{% endunless %}
-    <h2 class="photo-gallery__group-title">{{ this_group }}</h2>
-    <div class="photo-gallery">
-    {% assign written_group = this_group %}
-  {% endif %}
+    {% if is_image %}
+      {% assign photo_count = photo_count | plus: 1 %}
+      {% assign rel_path = file.path | remove_first: photo_root %}
+      {% assign path_parts = rel_path | split: "/" %}
+      {% if path_parts.size > 1 %}
+        {% assign this_group = path_parts[0] %}
+      {% else %}
+        {% assign this_group = "Photos" %}
+      {% endif %}
 
-  {% assign caption = file.basename | replace: '_', ' ' | replace: '-', ' ' %}
-  <figure class="photo-gallery__item">
-    <a href="{{ base_path }}{{ file.path }}" target="_blank" rel="noopener">
-      <img src="{{ base_path }}{{ file.path }}" alt="{{ caption }}">
-    </a>
-    <figcaption>{{ caption }}</figcaption>
-  </figure>
+      {% if this_group != written_group %}
+        {% unless written_group == nil %}</div>{% endunless %}
+        <h2 class="photo-gallery__group-title">{{ this_group }}</h2>
+        <div class="photo-gallery">
+        {% assign written_group = this_group %}
+      {% endif %}
+
+      {% assign caption = file.basename | replace: '_', ' ' | replace: '-', ' ' %}
+      <figure class="photo-gallery__item">
+        <a href="{{ base_path }}{{ file.path }}" target="_blank" rel="noopener">
+          <img src="{{ base_path }}{{ file.path }}" alt="{{ caption }}">
+        </a>
+        <figcaption>{{ caption }}</figcaption>
+      </figure>
+    {% endif %}
+  {% endif %}
 {% endfor %}
-{% unless photo_files.size == 0 %}</div>{% endunless %}
+{% if photo_count > 0 %}</div>{% endif %}
 
-{% if photo_files.size == 0 %}
+{% if photo_count == 0 %}
 <p>Photos coming soon!</p>
 {% endif %}
 
