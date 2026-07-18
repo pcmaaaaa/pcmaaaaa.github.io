@@ -20,10 +20,14 @@ gallery:
   entries to the "gallery" list in this page's front matter, e.g.:
 
   gallery:
-    - url: /images/photography/example.jpg
-      image_path: photography/example.jpg
+    - image_path: photography/example.jpg
+      url: photography/example.jpg
       alt: "Short description of the photo"
       title: "Optional caption shown under the thumbnail"
+
+  Note: "url" and "image_path" are both relative to /images/ (the
+  gallery include prepends "/images/" automatically) - don't include
+  a leading "/images/" in either field or the link will 404.
 
   "url" is optional (links the thumbnail to a larger version or the
   same image); "title"/"alt" are optional captions.
