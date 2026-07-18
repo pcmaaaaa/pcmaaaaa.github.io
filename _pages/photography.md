@@ -64,11 +64,21 @@ gallery:
   }
   .photo-gallery__item {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .photo-gallery__item a {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    border-radius: 4px;
   }
   .photo-gallery__item img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     display: block;
-    border-radius: 4px;
   }
   .photo-gallery__item figcaption {
     margin-top: 0.5em;
