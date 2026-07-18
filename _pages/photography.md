@@ -23,6 +23,9 @@ gallery:
   url: photography/Saki.jpg
   alt: ""
   title: "Saki the cat"
+
+- image_path: photography/Fishing.jpeg
+  title: "Fishing at Torrey Pine Beach"
 ---
 
 {% comment %}
