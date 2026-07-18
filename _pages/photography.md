@@ -3,71 +3,74 @@ layout: single
 permalink: /photography/
 title: "Photography"
 author_profile: true
-gallery:
-- image_path: photography/Salk.jpg
-  url: photography/Salk.jpg
-  alt: "Salk Institute ocean view"
-  title: "Salk Institute"
-
-- image_path: photography/Seaside.jpg
-  url: photography/Seaside.jpg
-  alt: "La Jolla Cove"
-  title: "La Jolla Cove"
-
-- image_path: photography/Arch.jpg
-  url: photography/Arch.jpg
-  alt: "The Arch from St. Louis"
-  title: "The Arch"
-
-- image_path: photography/Saki.jpg
-  url: photography/Saki.jpg
-  alt: ""
-  title: "Saki the cat"
-
-- image_path: photography/Fishing.jpeg
-  title: "Fishing at Torrey Pine Beach"
 ---
 
 {% comment %}
-  To add photos: drop image files into /images/photography/ and add
-  entries to the "gallery" list in this page's front matter, e.g.:
+  Fully automatic photo gallery: photos are discovered directly from
+  the filesystem, no front matter editing needed.
 
-  gallery:
-    - image_path: photography/example.jpg
-      url: photography/example.jpg
-      alt: "Short description of the photo"
-      title: "Caption shown under the photo"
+  To add photos: drop image files into a subfolder of
+  /images/photography/, e.g.:
 
-  Note: "url" and "image_path" are both relative to /images/ (this
-  page's grid prepends "/images/" automatically) - don't include a
-  leading "/images/" in either field or the link will 404.
+    images/photography/San Diego/sunset.jpg
+    images/photography/Pets/cat-nap.jpg
 
-  "title" is displayed as a visible caption under each photo; "alt"
-  is accessibility-only text and isn't shown visibly.
+  - The subfolder name becomes the group heading shown on the page.
+  - The filename (minus extension, underscores/dashes turned into
+    spaces) becomes the caption shown under the photo.
+  - Photos placed directly in /images/photography/ (no subfolder)
+    are shown under a generic "Photos" heading.
+  - Groups are listed alphabetically by folder name. To control the
+    order, prefix folder names with a number, e.g. "1 San Diego".
+  - Supported file types: .jpg, .jpeg, .png, .gif, .webp (any case).
 {% endcomment %}
 
 {% include base_path %}
 
-<div class="photo-gallery">
-  {% for img in page.gallery %}
-    <figure class="photo-gallery__item">
-      <a href="{{ img.url | prepend: '/images/' | prepend: base_path }}" target="_blank" rel="noopener">
-        <img src="{{ img.image_path | prepend: '/images/' | prepend: base_path }}" alt="{{ img.alt }}">
-      </a>
-      {% if img.title %}<figcaption>{{ img.title }}</figcaption>{% endif %}
-    </figure>
-  {% endfor %}
-</div>
+{% assign photo_root = "/images/photography/" %}
+{% assign photo_files = site.static_files | where_exp: "f", "f.path contains photo_root" %}
+{% assign photo_files = photo_files | where_exp: "f", "f.extname | downcase == '.jpg' or f.extname | downcase == '.jpeg' or f.extname | downcase == '.png' or f.extname | downcase == '.gif' or f.extname | downcase == '.webp'" %}
+{% assign photo_files = photo_files | sort: "path" %}
 
-{% if page.gallery.size == 0 %}
+{% assign written_group = nil %}
+{% for file in photo_files %}
+  {% assign rel_path = file.path | remove_first: photo_root %}
+  {% assign path_parts = rel_path | split: "/" %}
+  {% if path_parts.size > 1 %}
+    {% assign this_group = path_parts[0] %}
+  {% else %}
+    {% assign this_group = "Photos" %}
+  {% endif %}
+
+  {% if this_group != written_group %}
+    {% unless forloop.first %}</div>{% endunless %}
+    <h2 class="photo-gallery__group-title">{{ this_group }}</h2>
+    <div class="photo-gallery">
+    {% assign written_group = this_group %}
+  {% endif %}
+
+  {% assign caption = file.basename | replace: '_', ' ' | replace: '-', ' ' %}
+  <figure class="photo-gallery__item">
+    <a href="{{ base_path }}{{ file.path }}" target="_blank" rel="noopener">
+      <img src="{{ base_path }}{{ file.path }}" alt="{{ caption }}">
+    </a>
+    <figcaption>{{ caption }}</figcaption>
+  </figure>
+{% endfor %}
+{% unless photo_files.size == 0 %}</div>{% endunless %}
+
+{% if photo_files.size == 0 %}
 <p>Photos coming soon!</p>
 {% endif %}
 
 <style>
+  .photo-gallery__group-title {
+    margin: 1.5em 0 0.75em;
+  }
   .photo-gallery {
     column-count: 3;
     column-gap: 1.5em;
-    margin: 1.5em 0;
+    margin: 0 0 1.5em;
   }
   @media (max-width: 900px) {
     .photo-gallery { column-count: 2; }
