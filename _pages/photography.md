@@ -57,28 +57,28 @@ gallery:
 
 <style>
   .photo-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    gap: 1.5em;
+    column-count: 3;
+    column-gap: 1.5em;
     margin: 1.5em 0;
   }
+  @media (max-width: 900px) {
+    .photo-gallery { column-count: 2; }
+  }
+  @media (max-width: 600px) {
+    .photo-gallery { column-count: 1; }
+  }
   .photo-gallery__item {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
+    margin: 0 0 1.5em;
+    break-inside: avoid;
   }
   .photo-gallery__item a {
     display: block;
-    width: 100%;
-    aspect-ratio: 4 / 3;
-    overflow: hidden;
-    border-radius: 4px;
   }
   .photo-gallery__item img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
     display: block;
+    border-radius: 4px;
   }
   .photo-gallery__item figcaption {
     margin-top: 0.5em;
