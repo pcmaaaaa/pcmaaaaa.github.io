@@ -13,6 +13,11 @@ gallery:
   url: photography/Seaside.jpg
   alt: "La Jolla Cove"
   title: "La Jolla Cove"
+
+- image_path: photography/Arch.jpg
+  url: photography/Arch.jpg
+  alt: "The Arch from St. Louis"
+  title: "The Arch"
 ---
 
 {% comment %}
