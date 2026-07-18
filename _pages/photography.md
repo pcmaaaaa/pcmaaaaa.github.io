@@ -5,12 +5,12 @@ title: "Photography"
 author_profile: true
 gallery: 
 - image_path: photography/Salk.jpg
-  url: /images/photography/Salk.jpg
+  url: photography/Salk.jpg
   alt: "Salk Institute ocean view"
   title: "Salk Institute"
 
 - image_path: photography/Seaside.jpg
-  url: /images/photography/Seaside.jpg
+  url: photography/Seaside.jpg
   alt: "La Jolla Cove"
   title: "La Jolla Cove"
 ---
