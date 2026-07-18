@@ -29,7 +29,7 @@ author_profile: true
 
 {% assign photo_root = "/images/photography/" %}
 {% assign photo_files = site.static_files | where_exp: "f", "f.path contains photo_root" %}
-{% assign photo_files = photo_files | where_exp: "f", "f.extname | downcase == '.jpg' or f.extname | downcase == '.jpeg' or f.extname | downcase == '.png' or f.extname | downcase == '.gif' or f.extname | downcase == '.webp'" %}
+{% assign photo_files = photo_files | where_exp: "f", "f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.png' or f.extname == '.gif' or f.extname == '.webp' or f.extname == '.JPG' or f.extname == '.JPEG' or f.extname == '.PNG' or f.extname == '.GIF' or f.extname == '.WEBP'" %}
 {% assign photo_files = photo_files | sort: "path" %}
 
 {% assign written_group = nil %}
