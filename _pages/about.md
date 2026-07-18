@@ -19,9 +19,12 @@ I earned a Bachelor of Medicine degree from Peking University, Beijing, after gr
 
 News
 ------
+- 2026.06: New preprint from the lab: [Phasor EO-FLIM: Lifetime imaging with picosecond noise and 500 Hz frame rate](https://www.biorxiv.org/content/10.64898/2026.05.29.728614v1) by Linghao Hu, Pingchuan Ma, Vaibhav Menon, Athira Sethu Madhavan, Kenta Asahina, Lena M Müller, and Adam J Bowman.
 - 2026.05: I was awarded the [Kavli Institute for Brain and Mind (KIBM) Postdoctoral Scholar Award](https://biology.ucsd.edu/about/news/2026/article-062326a.html)!
+- 2025.11: SfN poster presentation titled 'A theoretical framework for optical multiplexing of neuronal signals'.
 - 2025.06: I was awarded the [Salk Pioneer Award](https://salkland.salk.edu/Interact/Pages/Content/Document.aspx?id=8218) for my study on building a optical platform for multiplexed imaging of neuronal signals!
 - 2025.05: I attended the [PhD hooding ceremony](https://sites.wustl.edu/yaochenlab/congratulations-pingchuan/)!
+- 2025.01: A panel session titled 'Shining A Light On Neuroscience: New Frontiers with Fluorescent Protein-Based Sensors' were jointly presented by Jacob, Jason, Maribel, and me at the 2025 Winter Conference on Brain Research!
 - 2025.01: I started working at Salk! Very exciting!
 - 2024.11: Paper published in eLife: [The promise and peril of comparing fluorescence lifetime in biology revealed by simulations](https://elifesciences.org/reviewed-preprints/101559v1).
 - 2024.09: I defended my thesis titled '[Studying the dynamics of neuromodulators in the brain by fluorescence lifetime imaging](https://www.proquest.com/openview/9797c3425e3ddc69575d630d10992516/1?pq-origsite=gscholar&cbl=18750&diss=y)'!
