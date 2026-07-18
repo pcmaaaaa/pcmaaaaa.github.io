@@ -3,7 +3,7 @@ layout: single
 permalink: /photography/
 title: "Photography"
 author_profile: true
-gallery: 
+gallery:
 - image_path: photography/Salk.jpg
   url: photography/Salk.jpg
   alt: "Salk Institute ocean view"
@@ -28,20 +28,52 @@ gallery:
     - image_path: photography/example.jpg
       url: photography/example.jpg
       alt: "Short description of the photo"
-      title: "Optional caption shown under the thumbnail"
+      title: "Caption shown under the photo"
 
-  Note: "url" and "image_path" are both relative to /images/ (the
-  gallery include prepends "/images/" automatically) - don't include
-  a leading "/images/" in either field or the link will 404.
+  Note: "url" and "image_path" are both relative to /images/ (this
+  page's grid prepends "/images/" automatically) - don't include a
+  leading "/images/" in either field or the link will 404.
 
-  "url" is optional (links the thumbnail to a larger version or the
-  same image); "title"/"alt" are optional captions.
+  "title" is displayed as a visible caption under each photo; "alt"
+  is accessibility-only text and isn't shown visibly.
 {% endcomment %}
 
 {% include base_path %}
 
-{% include gallery %}
+<div class="photo-gallery">
+  {% for img in page.gallery %}
+    <figure class="photo-gallery__item">
+      <a href="{{ img.url | prepend: '/images/' | prepend: base_path }}" target="_blank" rel="noopener">
+        <img src="{{ img.image_path | prepend: '/images/' | prepend: base_path }}" alt="{{ img.alt }}">
+      </a>
+      {% if img.title %}<figcaption>{{ img.title }}</figcaption>{% endif %}
+    </figure>
+  {% endfor %}
+</div>
 
 {% if page.gallery.size == 0 %}
 <p>Photos coming soon!</p>
 {% endif %}
+
+<style>
+  .photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1.5em;
+    margin: 1.5em 0;
+  }
+  .photo-gallery__item {
+    margin: 0;
+  }
+  .photo-gallery__item img {
+    width: 100%;
+    display: block;
+    border-radius: 4px;
+  }
+  .photo-gallery__item figcaption {
+    margin-top: 0.5em;
+    font-size: 0.85em;
+    text-align: center;
+    color: var(--global-fig-caption-color, #767676);
+  }
+</style>
