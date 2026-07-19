@@ -28,8 +28,8 @@ author:
   bio              : "Postdoctoral Research Fellow"
   location         : "San Diego"
   employer         : "Salk Institute"
-  uri              : "https://www.salk.edu/" # URL
-  email            : "mapingchuan93@gmail.com" 
+  uri              : #"https://www.salk.edu/" # URL
+  email            : #"mapingchuan93@gmail.com" 
 
   # Academic websites
   academia         : # URL
@@ -60,7 +60,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : pingchuan-ma-b15603151
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -68,7 +68,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : PC_Ma93
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
