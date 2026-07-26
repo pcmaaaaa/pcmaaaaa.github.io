@@ -13,7 +13,7 @@ I'm now a postdoctoral research fellow at Salk Institute in San Diego. For my cu
 
 I have a Ph.D. degree in Neuroscience from Washington University in St. Louis and a Bachelor of Medicine degree from Peking University.
 
-I enjoy playing basketball, phyotography, and spending time with my partner and cat Saki when I'm not in the lab.
+I enjoy playing basketball, phyotography, and spending time with my partner Zoe and cat Saki when I'm not in the lab.
 
 
 News
