@@ -7,13 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I'm a neuroscientist working at the interface of neurotechnology and neurobiology. I apply advanced optical imaging methods to study the dynamics of neuronal signals in the brain for their roles in neuronal functions and behaviors.
+I'm a neuroscientist working at the interface of neurotechnology and neurobiology. I apply advanced optical imaging methods to study the dynamics of neuronal signals in the brain to understand the principles of neuronal functions, physiology, and behaviors.
 
-I'm now a postdoctoral research fellow at Salk Institute in San Diego. For my current research, I use fast and quantitative fluorescence lifetime imaging of voltage multiplexed with other brain signals to study the neural dynamics in neural circuits.
+I'm now a postdoctoral research fellow at Salk Institute in San Diego. For my current research, I use fast and quantitative fluorescence lifetime imaging of voltage multiplexed with other brain signals to study the neural dynamics in visual circuits.
 
 I have a Ph.D. degree in Neuroscience from Washington University in St. Louis and a Bachelor of Medicine degree from Peking University.
 
-I like playing basketball, phyotography, and spending time with my partner and cat Saki when I'm not in the lab.
+I enjoy playing basketball, phyotography, and spending time with my partner and cat Saki when I'm not in the lab.
 
 
 News
